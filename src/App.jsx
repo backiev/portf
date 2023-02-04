@@ -16,12 +16,39 @@ function App() {
       </div>
 
       {/* MAIN CONTAINER */}
-      <div className="mx-auto max-w-xl">
+      <div className="mx-auto max-w-xl my-6">
+
+        {/* PREVIEW */}
         <div className="preview">
-          <div className="img">123</div>
-          <div className="p-4 bg-gray-700 rounded text-center">Привет, меня зовут Бакиев Фархат</div>
+          <div className="img flex justify-center my-4"><img src="/images/cat.gif" alt="caty" /></div>
+          <div className="p-4 bg-gray-700 rounded text-center">Привет, я веб-разработчик</div>
         </div>
+
+        {/* MINE TITLE */}
+        <div className="name-title flex justify-between my-6">
+          <div>
+            <div className='text-4xl font-bold'>Бакиев Фархат</div>
+            <div>Junior Fronted Developer</div>
+          </div>
+          <div className='h-auto w-32 '><img src="/images/me.jpg" alt="me" className='rounded-full border-white border-2 border-solid'/></div>
+        </div>
+
+        {/* Work block */}
+        <div className='my-6'>
+          <div className="title-block mb-3 text-xl underline underline-offset-4 decoration-stone-200 decoration-4 font-bold">Работа</div>
+          <p className="text-block indent-5">Takuya is a freelance and a full-stack developer based in Osaka with a passion for building digital services/stuff he wants. He has a knack for all things launching products, from planning and designing all the way to solving real-life problems with code. When not online, he loves hanging out with his camera. Currently, he is living off of his own product called Inkdrop. He publishes content for marketing his products and his YouTube channel called "Dev as Life" has more than 100k subscribers.</p>
+        </div>
+
+        {/* Projects block */}
+        <div className='my-6'>
+          <div className="title-block mb-3 text-xl underline underline-offset-4 decoration-stone-200 decoration-4 font-bold">Проекты</div>
+          <div>
+            <div className='project-block'>213</div>
+          </div>
+        </div>
+
       </div>
+
     </div>
   )
 }
