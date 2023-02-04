@@ -42,8 +42,46 @@ function App() {
         {/* Projects block */}
         <div className='my-6'>
           <div className="title-block mb-3 text-xl underline underline-offset-4 decoration-stone-200 decoration-4 font-bold">Проекты</div>
-          <div>
-            <div className='project-block'>213</div>
+          <div className='flex mt-4 flex-wrap'>
+
+            <div className='project-block flex flex-col items-center basis-1/2 mb-4 cursor-pointer'>
+              <div className='h-auto w-40'><img src="/images/card.png" alt="card" className='rounded'/></div>
+              <div className='text-center'>
+                <div className='font-bold mt-1'>Сайт-карточка</div>
+                <div className='text-sm'>Симулятор онлайн карточки</div>
+              </div>
+            </div>
+            <div className='project-block flex flex-col items-center basis-1/2 	mb-4 cursor-pointer'>
+              <div className='h-auto w-40'><img src="/images/card.png" alt="card" className='rounded'/></div>
+              <div className='text-center'>
+                <div className='font-bold mt-1'>Сайт-карточка</div>
+                <div className='text-sm'>Симулятор онлайн карточки</div>
+              </div>
+            </div>
+            <div className='project-block flex flex-col items-center basis-1/2 mb-2	cursor-pointer'>
+              <div className='h-auto w-40'><img src="/images/card.png" alt="card" className='rounded'/></div>
+              <div className='text-center'>
+                <div className='font-bold mt-1'>Сайт-карточка</div>
+                <div className='text-sm'>Симулятор онлайн карточки</div>
+              </div>
+            </div>
+            <div className='project-block flex flex-col items-center basis-1/2 mb-2	cursor-pointer'>
+              <div className='h-auto w-40'><img src="/images/card.png" alt="card" className='rounded'/></div>
+              <div className='text-center'>
+                <div className='font-bold mt-1'>Сайт-карточка</div>
+                <div className='text-sm'>Симулятор онлайн карточки</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        {/* Links */}
+        <div className='my-6'>
+          <div className="title-block mb-3 text-xl underline underline-offset-4 decoration-stone-200 decoration-4 font-bold">Ссылки</div>
+          <div className='flex flex-col'>
+            <a href='' className='text-cyan-400 hover:underline p-2 hover:bg-cyan-800/10 ease-in duration-200 rounded w-2/4'>GitHub: @backiev</a>
+            <a href='' className='text-cyan-400 hover:underline p-2 hover:bg-cyan-800/10 ease-in duration-200 rounded w-2/4'>telegram: @backiev</a>
           </div>
         </div>
 
