@@ -17,7 +17,7 @@ export const Header = ({setTheme, theme, currentTheme}) => {
           <div className='flex items-center'>
             <div className="font-bold text-lg mr-10">Backiev</div>
             <a href="#projects" className='mr-5 hover:underline'>Проекты</a>
-            <a href="#links" className='hover:underline'>Github</a>
+            <a href="#links" className='hover:underline'>Ссылки</a>
           </div>
           <button onClick={() => toggleTheme(theme)} className="border rounded border-solid w-10 h-10" style={{borderColor: currentTheme.borderColor}}>
             {theme === 0 ? <FontAwesomeIcon icon={faMoon} className="text-base"/> : " "}
