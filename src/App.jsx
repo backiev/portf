@@ -23,9 +23,9 @@ function App() {
     <div className='font-mono scroll-smooth transition-all ' style={{
       backgroundColor: currentThemes[theme].backgroundColor,
       color: currentThemes[theme].textColor}}>
-        
+
       {/* HEADER */}
-      <Header setTheme={setTheme} theme={theme}></Header>
+      <Header setTheme={setTheme} theme={theme} currentTheme={currentThemes[theme]}></Header>
 
       {/* MAIN CONTAINER */}
       <main className="mx-auto max-w-xl my-6 transition-all">

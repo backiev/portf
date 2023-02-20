@@ -1,7 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSun, faMoon, faCat } from '@fortawesome/free-solid-svg-icons';
+// import { faSun } from '@fortawesome/free-solid-svg-icons';
 
 
-export const Header = ({setTheme, theme}) => {
+export const Header = ({setTheme, theme, currentTheme}) => {
     const toggleTheme = (item) => {
       if (item < 2) {
         setTheme(item+1);
@@ -16,7 +19,11 @@ export const Header = ({setTheme, theme}) => {
             <a href="#projects" className='mr-5 hover:underline'>Проекты</a>
             <a href="#links" className='hover:underline'>Github</a>
           </div>
-          <button onClick={() => toggleTheme(theme)}>Change</button>
+          <button onClick={() => toggleTheme(theme)} className="border rounded border-solid w-10 h-10" style={{borderColor: currentTheme.borderColor}}>
+            {theme === 0 ? <FontAwesomeIcon icon={faMoon} className="text-base"/> : " "}
+            {theme === 1 ? <FontAwesomeIcon icon={faSun} className="text-base"/> : " "}
+            {theme === 2 ? <FontAwesomeIcon icon={faCat} className="text-base"/> : " "}
+          </button>
         </header>
     )
 }
