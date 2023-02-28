@@ -11,11 +11,11 @@ export const Projects = () => {
 
   return (
     <div className='my-6 container' id="projects">
-          <div className="title-block mb-3 text-xl underline underline-offset-4 decoration-stone-200 decoration-4 font-bold">Проекты</div>
+          <div className="title-block">Проекты</div>
           <div className='flex mt-4 flex-wrap '>
             {projects.map(item => (
-              <a href={item.url} target={'_blank'} className='project-block flex flex-col items-center  w-full md:basis-1/2 mb-4 cursor-pointer'>
-                <div className='h-64 w-80 md:h-32 md:w-40 bg-center bg-cover bg-no-repeat rounded' style={{backgroundImage: `url(${item.img})`}}></div>
+              <a href={item.url} target={'_blank'} className='flex flex-col items-center  w-full md:basis-1/2 mb-4 cursor-pointer'>
+                <div className='h-64 w-80 md:h-32 md:w-40 bg-image rounded' style={{backgroundImage: `url(${item.img})`}}></div>
                 <div className='text-center'>
                   <div className='font-bold mt-1'>{item.title}</div>
                   <div className='text-sm'>{item.text}</div>

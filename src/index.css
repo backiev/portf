@@ -24,4 +24,14 @@
   .container {
     @apply px-4 md:px-0;
   }
+  .title-block {
+    @apply mb-3 text-xl underline underline-offset-4 decoration-stone-200 decoration-4 font-bold;
+  }
+  .bg-image {
+    @apply bg-center bg-cover bg-no-repeat;
+  }
+  .link {
+    @apply active:text-blue-300 hover:underline;
+  }
 }
+
