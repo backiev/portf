@@ -13,7 +13,7 @@ export const Header = ({setTheme, theme, currentTheme}) => {
       }
     }
     return (
-        <header className="flex justify-between items-center mx-auto max-w-2xl py-4">
+        <header className="flex justify-between items-center mx-auto max-w-2xl py-4 container">
           <div className='flex items-center'>
             <div className="font-bold text-lg mr-10">Backiev</div>
             <a href="#projects" className='mr-5 hover:underline'>Проекты</a>

@@ -18,3 +18,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+
+@layer components {
+  .container {
+    @apply px-4 md:px-0;
+  }
+}
