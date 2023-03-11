@@ -22,7 +22,6 @@ export const Projects = () => {
                 </div>
               </a>
             ))}
-
           </div>
         </div>
   )
