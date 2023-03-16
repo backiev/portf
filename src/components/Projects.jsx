@@ -4,9 +4,8 @@ export const Projects = () => {
 
   const projects = [
     {id: 0, title: 'Сайт-карточка', text: 'Симулятор онлайн карточки', url: 'https://thirsty-beaver-7b2037.netlify.app/', img: './images/card.png'},
-    {id: 1, title: 'Симулятор клавиатуры', text: 'Красивая анимация клавиатуры', url: 'https://stupefied-euler-1f02a6.netlify.app/', img: './images/keyboard.png'},
+    {id: 1, title: 'Сайт с фильмами', text: 'Создание листов фильмов', url: 'https://backiev.github.io/films', img: './images/films.png'},
     {id: 2, title: 'Верстка сайта', text: 'Адаптивная верстка сайта', url: 'https://backiev.github.io/zendit/dist/', img: './images/single.png'},
-    {id: 3, title: 'Сайт с фильмами', text: 'Создание листов фильмов', url: 'https://backiev.github.io/films', img: './images/films.png'},
   ]
 
   return (
