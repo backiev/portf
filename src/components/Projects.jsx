@@ -3,8 +3,8 @@ import React from 'react'
 export const Projects = () => {
 
   const projects = [
-    {id: 0, title: 'Сайт-карточка', text: 'Симулятор онлайн карточки', url: 'https://thirsty-beaver-7b2037.netlify.app/', img: './images/card.png'},
-    {id: 1, title: 'Сайт с фильмами', text: 'Создание листов фильмов', url: 'https://backiev.github.io/films', img: './images/films.png'},
+    {id: 0, title: 'Сайт с фильмами', text: 'Создание листов фильмов', url: 'https://backiev.github.io/films', img: './images/films.png'},
+    {id: 1, title: 'Сайт-карточка', text: 'Симулятор онлайн карточки', url: 'https://backiev.github.io/card/', img: './images/card.png'},
     {id: 2, title: 'Верстка сайта', text: 'Адаптивная верстка сайта', url: 'https://backiev.github.io/zendit/dist/', img: './images/single.png'},
   ]
 
