@@ -22,7 +22,8 @@ function App() {
   return (
     <div className='font-mono scroll-smooth transition-all ' style={{
       backgroundColor: currentThemes[theme].backgroundColor,
-      color: currentThemes[theme].textColor}}>
+      color: currentThemes[theme].textColor,
+      height: "100vh"}}>
 
       {/* HEADER */}
       <Header setTheme={setTheme} theme={theme} currentTheme={currentThemes[theme]}></Header>
